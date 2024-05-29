@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Little Pocket 로그인</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="loginstyle.css" />
+  </head>
+  <body>
+    <header style="height: 100px; display: flex; justify-content: space-between; align-items: center;">
+        <h3>MY Little Pocket</h3>
+    </header>
+    <form class="login">
+      <h1 class="login-title">My Little Pocket</h1><br>
+      <input
+        name="username"
+        type="text"
+        placeholder="아이디"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="비밀번호"
+      />
+      <ul>
+        <li><input style="margin-right: 20px;" type="checkbox" name="idAutoSave[]" value="아이디 저장"><span>아이디저장</span></li>
+        <li><input style="margin-right: 20px; margin-left: 20px;" type="checkbox" name="autoLogin[]" value="자동 로그인"><span>자동로그인</span></li>
+      </ul><br>
+      <button>로그인</button>
+      <div id="wrap">
+        <ul class="login-forgot">
+            <li class="login-forgot-link" href="#">아이디</li>
+            <li class="login-forgot-link" href="#">비밀번호</li>
+            <li class="login-forgot-link" href="#">회원가입</li>
+        </ul>
+      </div>
+    </form>
+  </body>
+</html>
