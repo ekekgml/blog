@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #ffbe98);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+form[name="diary"] input[type="submit"] {
+      margin-left: 235px;
+  }
+
+  .right-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    margin-right: 20px; /* 돋보기 아이콘과 프로필 이미지 사이의 간격 */
+    font-size: 24px; /* 돋보기 아이콘 크기 조절 */
+}
+
+.profile-icon {
+    width: 50px; /* 프로필 이미지 크기 */
+    height: 50px; /* 프로필 이미지 크기 */
+    border-radius: 50%; /* 동그란 모양 만들기 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 요소에 맞춤 */
+}
+
+.title-input {
+    width: 80%; /* 제목 입력란의 너비 */
+    height: 50px; /* 제목 입력란의 높이 */
+    margin-bottom: 10px; /* 아래쪽 여백 */
+}
+
+.content-input {
+    width: 90%; /* 내용 입력란의 너비 */
+    height: 1000px; /* 내용 입력란의 높이 */
+}
+
+.profile-image-container {
+    display: block; /* 블록 레벨 요소로 설정 */
+    margin: 0 auto; /* 상하 마진은 0, 좌우 마진은 자동으로 설정하여 중앙 정렬 */
+    text-align: center; /* 내부 요소(이미지와 하이퍼링크)를 중앙에 배치 */
+    width: 300px; /* 혹은 다른 적절한 너비 */
+}
+
+.link-list li {
+        margin: 40px 0; /* 상하 간격을 15px로 설정, 좌우 간격은 변경 없음 */
+}
+.link-list {
+    margin-top: 100px; /* 상단 여백을 40px로 설정 */
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   /* margin-bottom: 20px;*/
+  }
+  
+  .category {
+    height: 1000px;
+    width: 20%;
+    background-color: rgba(241, 241, 241, 0.8); /* 배경색을 반투명하게 */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  
+  .category h3 {
+    margin-top: 0;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category li {
+    margin-bottom: 25px;
+  }
+
+  .main-categories .sub-categories {
+    margin-top: 10px;
+  }
+  
+  .category a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .category a:hover {
+    color: #666;
+  }
+  
+  .post-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 75%;
+    border-radius: 15px;
+  }
+  
+  
